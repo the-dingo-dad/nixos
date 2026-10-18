@@ -13,6 +13,8 @@
         ./hosts/dingo-os/configuration.nix
         lanzaboote.nixosModules.lanzaboote
         ./modules/secureboot.nix
+        ./modules/dev.nix
+        ./modules/dual-boot.nix
       ];
     };
   };
